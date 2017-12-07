@@ -1,6 +1,6 @@
 <?php
 
-/*
+/*raba
  * General Variables
  */
 
@@ -20,7 +20,7 @@ $projects = [];
 array_push($projects, array(
 'project' => 'aac_' . $date,
 'refresh_token' => '1/Fb-kcD0UFz63kdX2fg9tTPN3QR0izXPm0Tdkvvv_KOw',
-'accounts' => array('156-469-0702','156-469-0702','606-092-7999','204-292-7012'),
+'accounts' => array('156-469-0702','575-470-1972','606-092-7999','204-292-7012'),
 'report' => 'KEYWORDS_PERFORMANCE_REPORT',
 'metrics' => 'Date,AccountDescriptiveName,CampaignName,Criteria,KeywordMatchType,ClickType,Clicks,Impressions,Cost,Conversions',
 'date' => 'YESTERDAY',
@@ -31,6 +31,7 @@ array_push($projects, array(
  * Project [Infiniti]
  */
 
+
 array_push($projects, array(
     'project' => 'infiniti_' . $date,
     'refresh_token' => '1/Fb-kcD0UFz63kdX2fg9tTPN3QR0izXPm0Tdkvvv_KOw',
@@ -39,6 +40,8 @@ array_push($projects, array(
     'metrics' => 'Date,AccountDescriptiveName,CampaignName,Criteria,KeywordMatchType,ClickType,Clicks,Impressions,Cost,Conversions',
     'date' => 'YESTERDAY',
 ));
+
+
 
 /*
  * Project [Nissan]
@@ -135,5 +138,8 @@ array_push($projects, array(
     'metrics' => 'Date,AccountDescriptiveName,CampaignName,ImpressionReach,AverageFrequency',
     'date' => 'YESTERDAY',
 ));
+
+
+
 
 
