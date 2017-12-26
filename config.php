@@ -17,13 +17,13 @@ $projects = [];
  * Project [AAC]
  */
 
-array_push($projects, array(
-'project' => 'aac_' . $date,
-'refresh_token' => '1/Fb-kcD0UFz63kdX2fg9tTPN3QR0izXPm0Tdkvvv_KOw',
-'accounts' => array('156-469-0702','575-470-1972','606-092-7999','204-292-7012'),
-'report' => 'KEYWORDS_PERFORMANCE_REPORT',
-'metrics' => 'Date,AccountDescriptiveName,CampaignName,Criteria,KeywordMatchType,ClickType,Clicks,Impressions,Cost,Conversions',
-'date' => 'YESTERDAY',
+    array_push($projects, array(
+        'project' => 'aac_' . $date,
+        'refresh_token' => '1/Fb-kcD0UFz63kdX2fg9tTPN3QR0izXPm0Tdkvvv_KOw',
+        'accounts' => array('156-469-0702','575-470-1972','606-092-7999','204-292-7012'),
+        'report' => 'KEYWORDS_PERFORMANCE_REPORT',
+        'metrics' => 'Date,AccountDescriptiveName,CampaignName,Criteria,KeywordMatchType,ClickType,Clicks,Impressions,Cost,Conversions',
+        'date' => 'YESTERDAY',
 ));
 
 
@@ -123,7 +123,7 @@ array_push($projects, array(
 
 array_push($projects, array(
     'project' => 'phd_search_campaign_' . $date,
-    'refresh_token' => '1/M1ZbcGF3J2EP2nIJxGHeafSsdNV04BoZXQT_CtCuDqM',
+    'refresh_token' => '1/dFhj2Bp_zpbbGnv4p1IWKzR6_RZUapsvJsIUl8Pj-Q4',
     'accounts' => array('820-044-1488', '622-320-8323', '353-675-5222', '324-299-8908', '427-901-1692', '958-193-2932', '647-977-0247', '743-940-1870', '333-108-1553', '547-848-9426', '950-256-3844', '960-276-8378', '920-523-6542', '481-866-0549', '597-808-5987', '395-695-0543', '839-622-2872', '683-172-7825', '502-100-0963', '289-507-1926', '449-288-1159', '527-201-9306', '798-057-0468', '840-535-4545', '271-017-5890', '688-991-0154', '744-378-3299', '226-060-1201', '584-106-3990', '454-369-6243', '526-230-0005','477-547-4196'),
     'report' => 'CAMPAIGN_PERFORMANCE_REPORT',
     'metrics' => 'Date,AccountDescriptiveName,AdNetworkType1,CampaignName,ClickType,Device,Clicks,Cost,Ctr,Impressions,Conversions,AverageTimeOnSite,BounceRate',
