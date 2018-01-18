@@ -1,5 +1,5 @@
 application: annalect-api-jobs
-version: v1
+version: v4
 runtime: php55
 api_version: 1
 service: adwords-api
